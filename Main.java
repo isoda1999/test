@@ -9,16 +9,17 @@ public class Main {
 		for(Integer i = 0; i < 11; i++) {
 			valuList.add(i * 10);
 		}
-
-		Integer a = valuList.get(0);
-		Integer b = valuList.get(1);
-		Integer c = valuList.get(2);
-		Integer d = valuList.get(3);
-		Integer e = valuList.get(4);
-		Integer f = valuList.get(5);
-		Integer g = valuList.get(6);
-		Integer h = valuList.get(7);
-
 		System.out.println(valuList);
+		Integer a = valuList.get(1);
+		Integer b = valuList.get(2);
+		Integer c = valuList.get(3);
+		Integer d = valuList.get(4);
+		Integer e = valuList.get(5);
+		Integer f = valuList.get(6);
+		Integer g = valuList.get(7);
+		Integer h = valuList.get(8);
+		Integer i = valuList.get(9);
+		Integer j = valuList.get(10);
+		System.out.println(a * b * c * d * e * f * g * h * i * j);
 	}
 }
