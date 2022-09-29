@@ -6,8 +6,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		ArrayList<Integer> valuList = new ArrayList<>();
-		for(Integer i = 0; i < 100; i++) {
-			valuList.add(i + 10);
+		for(Integer i = 0; i < 11; i++) {
+			valuList.add(i * 10);
 		}
 
 		Integer a = valuList.get(0);
@@ -18,9 +18,7 @@ public class Main {
 		Integer f = valuList.get(5);
 		Integer g = valuList.get(6);
 		Integer h = valuList.get(7);
-		Integer full = 0;
-		full = (a * b * c * d * e * f * g * h);
-		System.out.print(full);
 
+		System.out.println(valuList);
 	}
 }
