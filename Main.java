@@ -20,15 +20,13 @@ public class Main {
 		}
 		System.out.println(total);
 		int x = 0;
-		long count = valuList.get(x);
 		int num = 0;
+		long count = valuList.get(x);
 		for(int i = 0; i < count - 1; i++) {
 			for(int j = i + 1; j < count; j++) {
 				num++;
-				System.out.print(num + valuList[i] + "" + valuList[j]);
+				System.out.print(num + " {" + valuList[i] + ", " + valuList[j] + "}");
 			}
-			System.out.println();
-
 		}
 	}
 }
