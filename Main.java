@@ -33,25 +33,7 @@ public class Main {
 	}
 
 	public static void main2(String[] args) {
-		ArrayList<Integer> list = new ArrayList<Integer>(Arrays.asList(10, 20, 30));
-		boolean[] used = new boolean;
-		        int[] param = new int[list.length];
-		        create(list, param, used, 0);
-		    }
-
-	private static void create(int[] seed, int[] param, boolean[] used, int index) {
-		if(index == param.length) {
-			System.out.println(Arrays.toString(param));
-			return;
-		}
-
-		for(int i = 0; i < seed.length; ++i) {
-			if(used[i])
-				continue;
-			param[index] = seed[i];
-			used[i] = true;
-			create(seed, param, used, index + 1);
-			used[i] = false;
+		List<String> list = new ArrayList<integer>(Arrays.asList(10, 20, 30));
 		}
 	}
-}
+
