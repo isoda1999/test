@@ -25,7 +25,7 @@ public class Main {
 		for(int i = 0; i < count - 1; i++) {
 			for(int j = i + 1; j < count; j++) {
 				num++;
-				System.out.print(num + " {" + valuList[i] + ", " + valuList[j] + "}");
+				System.out.print(num + " {" + valuList.get(i) + ", " + valuList.get(j) + "}");
 			}
 		}
 	}
